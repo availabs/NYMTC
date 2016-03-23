@@ -1,0 +1,47 @@
+.main {
+	width: 1275px;
+	height: 1650px;
+	margin: 0 auto;
+	
+	padding:15px;
+}
+.title {
+	width:100%;
+	text-align: center;
+}
+.desc {
+	padding:25px;
+}
+
+.viz {
+	
+}
+
+.ratings {
+	
+}
+
+.ratingName {
+	text-align: right;
+	padding-right: 0px;
+	max-height: 50px;
+	overflow: hidden;
+}
+
+.ratingCircles {
+	padding-left: 0px
+}
+
+.radar {
+	height:600px;
+}
+
+.pro {
+	
+	height:400px;
+}
+
+.con {
+	
+	height:400px;
+}
