@@ -1,14 +1,15 @@
 
 body {
-	font-family: Calibri,Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
 }
+
 .main {
 	width: 1275px;
-	height: 1650px;
-	margin: 0 auto;
-	
+	height: 1600px;
 	padding:15px;
+	border: 1px solid blue;
 }
+
 .title {
 	width:100%;
 	text-align: center;
