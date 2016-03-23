@@ -1,5 +1,4 @@
 function drawRadarChart(data,currentMethod){
-	console.log('Im drawing a chart')
 	var w = 500,
 		h = 500;
 
