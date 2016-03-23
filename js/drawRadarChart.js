@@ -26,7 +26,7 @@ function drawRadarChart(data,currentMethod){
 	  h: h,
 	  maxValue: 1,
 	  levels: 10,
-	  ExtraWidthX: 150,
+	  ExtraWidthX: 145,
 	  color:colorscale,
 	  opacityArea: 0.6	
 	}

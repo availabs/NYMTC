@@ -1,4 +1,4 @@
-console.log('hello world');
+//console.log('hello world');
 
 d3.csv('data/cbAnalysis2.csv', function(err, cbAnalysis){
 	if(err){ console.log('There was an error:', err)}

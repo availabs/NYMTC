@@ -1,3 +1,7 @@
+
+body {
+	font-family: times, arial
+}
 .main {
 	width: 1275px;
 	height: 1650px;
@@ -37,11 +41,20 @@
 }
 
 .pro {
+	padding:25px;
 	
-	height:400px;
 }
 
 .con {
+	padding:25px;
 	
-	height:400px;
+}
+
+.centerTitle {
+	width:100%;
+	text-align: center;
+}
+
+li {
+	padding: 10px;
 }
