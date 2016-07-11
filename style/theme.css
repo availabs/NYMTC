@@ -1,13 +1,24 @@
 
 body {
 	font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 20px
+}
+
+h4 {
+	font-weight: bold;
+}
+
+.gridMain {
+	width: 1275px;
+	height: 1650px;
+	margin: 0 auto;
 }
 
 .main {
 	width: 1275px;
-	height: 1600px;
-	padding:15px;
-	border: 1px solid blue;
+	height: 1650px;
+	padding:105px;
+	padding-top: 25px;
 }
 
 .title {
@@ -22,8 +33,11 @@ body {
 	
 }
 
+.procon {
+
+}
 .ratings {
-	
+	margin-left: -50px
 }
 
 .ratingName {
@@ -31,6 +45,7 @@ body {
 	padding-right: 0px;
 	max-height: 50px;
 	overflow: hidden;
+	font-size: 14px
 }
 
 .ratingCircles {
@@ -38,6 +53,7 @@ body {
 }
 
 .radar {
+	padding-top:50px;
 	height:600px;
 }
 
@@ -58,4 +74,25 @@ body {
 
 li {
 	padding: 10px;
+}
+
+.summary {
+	margin-top: 50px;
+}
+
+.score {
+	text-align: center;
+	
+}
+
+.radarGrid {
+	width: 300px;
+	height: 300px;
+	float:left;
+	text-align: center;
+}
+
+.big {
+  width: 600px;
+  height: 600px
 }

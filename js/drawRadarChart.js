@@ -1,6 +1,6 @@
-function drawRadarChart(data,currentMethod){
-	var w = 500,
-		h = 500;
+function drawRadarChart(data, currentMethod, options){
+	var w = options && options.w ? options.w : 500,
+		h = options && options.h ? options.h : 500;
 
 	var RadarData = Object.keys(methodCategories).map(function(mcat){
 		return data
@@ -20,17 +20,20 @@ function drawRadarChart(data,currentMethod){
 
 	
 	//Options for the Radar chart, other than default
+
 	var mycfg = {
 	  w: w,
 	  h: h,
 	  maxValue: 1,
 	  levels: 10,
-	  ExtraWidthX: 145,
+	  ExtraWidthX: 165,
 	  color:colorscale,
-	  opacityArea: 0.6	
+	  opacityArea: 0.6,
+	  drawLabels:  options && typeof options.drawLabels !== 'undefined' ? options.drawLabels : true
 	}
-
+	console.log(RadarData)
 	//Call function to draw the Radar chart
 	//Will expect that data is in %'s
-	RadarChart.draw(".radar", RadarData, mycfg);
+	var target = options && options.target ? options.target : '.radar';
+	RadarChart.draw(target, RadarData, mycfg);
 }

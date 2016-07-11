@@ -22,6 +22,7 @@ var RadarMethods = [
 ]
 
 var methodCategories = {
+	
 	'Trip Characteristic Data': {
 		color: '#3faecd',
 		methods : [
